@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram id="use_case" name="Page-1">
-    <mxGraphModel dx="1240" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="UseCaseDiagram" name="Use Case Diagram">
+    <mxGraphModel dx="1035" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="actor_user" value="Người dùng" style="shape=actor;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="40" height="80" as="geometry" />
+        <mxCell id="actorUser" value="Người dùng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="actor_system" value="Hệ thống" style="shape=computer;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="40" height="80" as="geometry" />
+        <mxCell id="actorSystem" value="Hệ thống" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase1" value="Thu thập phản hồi" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase2" value="Nhập URL sản phẩm" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase3" value="Xác thực đường dẫn" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase4" value="Tiến hành thu thập phản hồi" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase5" value="Ghi log quá trình thu thập" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase6" value="Lưu phản hồi" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase7" value="Xem phản hồi" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="useCase8" value="Quản lý phản hồi" style="ellipse;whiteSpace=wrap;fillColor=#8CE2FF" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" edge="1" parent="1" source="actorUser" target="useCase1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line2" edge="1" parent="1" source="actorSystem" target="useCase6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
