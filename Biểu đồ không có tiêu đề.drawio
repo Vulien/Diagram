@@ -1,79 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2025-03-17T15:00:00Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" version="15.8.7" type="device">
-  <diagram id="DFD-Level0" name="DFD Level 0">
-    <mxGraphModel dx="1448" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2025-03-17T17:00:00Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" version="15.8.7" type="device">
+  <diagram id="DFD-Level0" name="DFD Level 0 - Quan Ly Cua Hang Ban Le Quan Ao Nu (Online)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
+        <!-- ===================== MAIN PROCESS (0) ===================== -->
+        <!-- Hình chữ nhật với số 0 ở trên, tiêu đề ở dưới (cách mô phỏng) -->
+        <mxCell id="Process0" value="0&#10;QUẢN LÝ CỬA HÀNG BÁN LẺ QUẦN ÁO NỮ (ONLINE)" 
+                style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontStyle=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="280" height="160" as="geometry"/>
+        </mxCell>
+
         <!-- ===================== EXTERNAL ENTITIES ===================== -->
 
-        <!-- E1: Khách hàng -->
-        <mxCell id="E1" value="Khách hàng" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="50" y="60" width="140" height="60" as="geometry"/>
+        <!-- E1: Khách hàng (trái trên) -->
+        <mxCell id="E1" value="Khách hàng" 
+                style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="120" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- E2: Quản trị -->
-        <mxCell id="E2" value="Quản trị" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="660" y="60" width="140" height="60" as="geometry"/>
+        <!-- E2: Nhà quản trị (trái dưới) -->
+        <mxCell id="E2" value="Nhà quản trị" 
+                style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- E3: Đơn vị thanh toán -->
-        <mxCell id="E3" value="Đơn vị thanh toán" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="140" height="60" as="geometry"/>
+        <!-- E3: Đơn vị thanh toán (phải trên) -->
+        <mxCell id="E3" value="Đơn vị thanh toán" 
+                style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="140" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- E4: Bên vận chuyển -->
-        <mxCell id="E4" value="Bên vận chuyển" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffdce5;strokeColor=#d6667e;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="660" y="300" width="140" height="60" as="geometry"/>
+        <!-- E4: Bên vận chuyển (phải dưới) -->
+        <mxCell id="E4" value="Bên vận chuyển" 
+                style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffdce5;strokeColor=#d6667e;fontSize=12;"
+                vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="140" height="60" as="geometry"/>
         </mxCell>
 
-        <!-- ===================== MAIN PROCESS ===================== -->
+        <!-- ===================== DATA FLOWS ===================== -->
 
-        <!-- P0: Quản lý cửa hàng bán lẻ quần áo nữ (Online) -->
-        <mxCell id="P0" value="Quản lý cửa hàng bán lẻ quần áo nữ (Online)" style="shape=process;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="350" y="180" width="220" height="80" as="geometry"/>
-        </mxCell>
-
-        <!-- ===================== DATA FLOWS (edges) ===================== -->
-
-        <!-- E1 -> P0: F1 (Yêu cầu mua hàng) -->
-        <mxCell id="flowE1P0" value="Yêu cầu mua hàng" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="E1" target="P0">
+        <!-- 1. Khách hàng -> 0: Yêu cầu mua hàng -->
+        <mxCell id="Flow1" value="Yêu cầu mua hàng" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="E1" target="Process0">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- P0 -> E1: F2 (Phản hồi mua hàng) -->
-        <mxCell id="flowP0E1" value="Phản hồi mua hàng" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="P0" target="E1">
+        <!-- 2. 0 -> Khách hàng: Phản hồi mua hàng -->
+        <mxCell id="Flow2" value="Phản hồi mua hàng" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="Process0" target="E1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- E2 -> P0: F3 (Yêu cầu quản trị) -->
-        <mxCell id="flowE2P0" value="Yêu cầu quản trị" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="E2" target="P0">
+        <!-- 3. Nhà quản trị -> 0: Yêu cầu quản trị -->
+        <mxCell id="Flow3" value="Yêu cầu quản trị" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="E2" target="Process0">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- P0 -> E2: F4 (Kết quả quản trị) -->
-        <mxCell id="flowP0E2" value="Kết quả quản trị" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="P0" target="E2">
+        <!-- 4. 0 -> Nhà quản trị: Kết quả quản trị -->
+        <mxCell id="Flow4" value="Kết quả quản trị" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="Process0" target="E2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- P0 -> E3: F5 (Yêu cầu thanh toán) -->
-        <mxCell id="flowP0E3" value="Yêu cầu thanh toán" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="P0" target="E3">
+        <!-- 5. 0 -> Đơn vị thanh toán: Yêu cầu thanh toán -->
+        <mxCell id="Flow5" value="Yêu cầu thanh toán" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="Process0" target="E3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- E3 -> P0: F6 (Kết quả thanh toán) -->
-        <mxCell id="flowE3P0" value="Kết quả thanh toán" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="E3" target="P0">
+        <!-- 6. Đơn vị thanh toán -> 0: Kết quả thanh toán -->
+        <mxCell id="Flow6" value="Kết quả thanh toán" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="E3" target="Process0">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- P0 -> E4: F7 (Yêu cầu vận chuyển) -->
-        <mxCell id="flowP0E4" value="Yêu cầu vận chuyển" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="P0" target="E4">
+        <!-- 7. 0 -> Bên vận chuyển: Yêu cầu vận chuyển -->
+        <mxCell id="Flow7" value="Yêu cầu vận chuyển" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="Process0" target="E4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
-        <!-- E4 -> P0: F8 (Cập nhật vận chuyển) -->
-        <mxCell id="flowE4P0" value="Cập nhật vận chuyển" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=10;" edge="1" parent="1" source="E4" target="P0">
+        <!-- 8. Bên vận chuyển -> 0: Cập nhật vận chuyển -->
+        <mxCell id="Flow8" value="Cập nhật vận chuyển" 
+                style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=block;fontSize=11;"
+                edge="1" parent="1" source="E4" target="Process0">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
 
