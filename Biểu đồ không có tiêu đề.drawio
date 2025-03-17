@@ -1,9 +1,76 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
-  <diagram name="Trang-1" id="qpJ5OLTnygt8RtggFD-j">
-    <mxGraphModel>
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-03-17T13:00:00Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" version="15.8.7" type="device">
+  <diagram id="DFD-Level0" name="DFD Level 0">
+    <mxGraphModel dx="1448" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
+        <mxCell id="0"/>
         <mxCell id="1" parent="0" />
+
+        <!-- E1: Khách hàng -->
+        <mxCell id="E1" value="Khách hàng (E1)" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- E2: Quản trị -->
+        <mxCell id="E2" value="Quản trị (E2)" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- E3: Payment Gateway -->
+        <mxCell id="E3" value="Payment Gateway (E3)" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- E4: Shipper -->
+        <mxCell id="E4" value="Shipper (E4)" style="shape=ext;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffdce5;strokeColor=#d6667e;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process 0: Hệ thống Quản lý -->
+        <mxCell id="P0" value="Hệ thống Quản lý (Process 0)" style="shape=process;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- E1 -> P0 -->
+        <mxCell id="edgeE1P0" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="E1" target="P0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- P0 -> E1 -->
+        <mxCell id="edgeP0E1" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="P0" target="E1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- E2 -> P0 -->
+        <mxCell id="edgeE2P0" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="E2" target="P0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- P0 -> E2 -->
+        <mxCell id="edgeP0E2" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="P0" target="E2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- E3 -> P0 -->
+        <mxCell id="edgeE3P0" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="E3" target="P0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- P0 -> E3 -->
+        <mxCell id="edgeP0E3" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="P0" target="E3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- E4 -> P0 -->
+        <mxCell id="edgeE4P0" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="E4" target="P0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- P0 -> E4 -->
+        <mxCell id="edgeP0E4" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="P0" target="E4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
