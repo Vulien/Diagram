@@ -8,54 +8,63 @@
         <mxCell id="1" parent="0"/>
 
         <!-- Bảng nền (tùy chọn, để “bao” toàn bộ) -->
-        <mxCell id="tableBackground" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;"
+        <mxCell id="tableBackground" value="" 
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;"
                 vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="880" height="350" as="geometry"/>
         </mxCell>
 
         <!-- Row 1: Tác nhân -->
-        <mxCell id="row1_col1" value="Tác nhân" 
+        <mxCell id="row1_col1" 
+                value="Tác nhân" 
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="row1_col2" value="Khách hàng<br/>Nhà quản trị<br/>Đơn vị thanh toán<br/>Bên vận chuyển" 
+        <mxCell id="row1_col2" 
+                value="Khách hàng&#xa;Nhà quản trị&#xa;Đơn vị thanh toán&#xa;Bên vận chuyển"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=left;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="680" height="50" as="geometry"/>
         </mxCell>
 
         <!-- Row 2: Tiến trình -->
-        <mxCell id="row2_col1" value="Tiến trình"
+        <mxCell id="row2_col1" 
+                value="Tiến trình"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="row2_col2" value="ID: 0<br/>Tên: Quản lý cửa hàng bán lẻ quần áo nữ (Online)"
+        <mxCell id="row2_col2" 
+                value="ID: 0&#xa;Tên: Quản lý cửa hàng bán lẻ quần áo nữ (Online)"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=left;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="240" y="90" width="680" height="60" as="geometry"/>
         </mxCell>
 
         <!-- Row 3: Luồng DL -->
-        <mxCell id="row3_col1" value="Luồng DL"
+        <mxCell id="row3_col1" 
+                value="Luồng DL"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="40" y="150" width="200" height="150" as="geometry"/>
         </mxCell>
-        <mxCell id="row3_col2" value="1. Yêu cầu mua hàng (Khách hàng → 0)<br/>2. Phản hồi mua hàng (0 → Khách hàng)<br/>3. Yêu cầu quản trị (Nhà quản trị → 0)<br/>4. Kết quả quản trị (0 → Nhà quản trị)<br/>5. Yêu cầu thanh toán (0 → Đơn vị thanh toán)<br/>6. Kết quả thanh toán (Đơn vị thanh toán → 0)<br/>7. Yêu cầu vận chuyển (0 → Bên vận chuyển)<br/>8. Cập nhật vận chuyển (Bên vận chuyển → 0)"
+        <mxCell id="row3_col2" 
+                value="1. Yêu cầu mua hàng (Khách hàng &#8594; 0)&#xa;2. Phản hồi mua hàng (0 &#8594; Khách hàng)&#xa;3. Yêu cầu quản trị (Nhà quản trị &#8594; 0)&#xa;4. Kết quả quản trị (0 &#8594; Nhà quản trị)&#xa;5. Yêu cầu thanh toán (0 &#8594; Đơn vị thanh toán)&#xa;6. Kết quả thanh toán (Đơn vị thanh toán &#8594; 0)&#xa;7. Yêu cầu vận chuyển (0 &#8594; Bên vận chuyển)&#xa;8. Cập nhật vận chuyển (Bên vận chuyển &#8594; 0)"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=left;verticalAlign=top;"
                 vertex="1" parent="1">
           <mxGeometry x="240" y="150" width="680" height="150" as="geometry"/>
         </mxCell>
 
         <!-- Row 4: File (Data Store) -->
-        <mxCell id="row4_col1" value="File"
+        <mxCell id="row4_col1" 
+                value="File"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="40" y="300" width="200" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="row4_col2" value="Không có / Chưa hiển thị ở DFD Mức 0"
+        <mxCell id="row4_col2" 
+                value="Không có / Chưa hiển thị ở DFD Mức 0"
                 style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=left;verticalAlign=middle;"
                 vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="680" height="90" as="geometry"/>
