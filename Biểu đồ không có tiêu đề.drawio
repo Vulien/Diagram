@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1" pages="3">
   <diagram id="DFD_Muc0_Style" name="DFD mức ngữ cảnh">
-    <mxGraphModel dx="624" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,6 +201,11 @@
             <mxPoint x="52" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wkRjpu9WaUnzK2j_CELc-5" value="Hoá đơn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SybfVE6GTZZQ5jV9RY9G-19">
+          <mxGeometry x="-0.2405" y="2" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SybfVE6GTZZQ5jV9RY9G-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Process0" target="sacwl1poV_7BPJyIdJVe-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="450" as="sourcePoint" />
@@ -209,7 +214,7 @@
         </mxCell>
         <mxCell id="SybfVE6GTZZQ5jV9RY9G-22" value="Kết quả tra cứu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SybfVE6GTZZQ5jV9RY9G-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2903" y="1" relative="1" as="geometry">
-            <mxPoint x="19" y="39" as="offset" />
+            <mxPoint x="19" y="59" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SybfVE6GTZZQ5jV9RY9G-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.958;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Process0" target="sacwl1poV_7BPJyIdJVe-8" edge="1">
@@ -219,11 +224,6 @@
             <Array as="points">
               <mxPoint x="790" y="540" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SybfVE6GTZZQ5jV9RY9G-24" value="Thông tin phản hồi hệ thống" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SybfVE6GTZZQ5jV9RY9G-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.448" y="2" relative="1" as="geometry">
-            <mxPoint x="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KHAyR4WjoF4AcQPxDaFb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="E1L" target="Process0" edge="1">
