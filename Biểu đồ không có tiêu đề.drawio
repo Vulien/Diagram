@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1" pages="3">
   <diagram id="DFD_Muc0_Style" name="DFD mức ngữ cảnh">
-    <mxGraphModel dx="1152" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1070" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1275" pageHeight="1650" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,6 +335,28 @@
         <mxCell id="VkfcsBcTqkRqmxiIMvMh-2" value="Thông tin tài khoản KH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VkfcsBcTqkRqmxiIMvMh-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1849" y="2" relative="1" as="geometry">
             <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IloEyi0LF0UIKYeNbzSe-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E1L" target="Process0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IloEyi0LF0UIKYeNbzSe-4" value="TT số đo, sở thích" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IloEyi0LF0UIKYeNbzSe-3">
+          <mxGeometry x="-0.196" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IloEyi0LF0UIKYeNbzSe-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.014;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.151;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Process0" target="E1R">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="200" as="sourcePoint" />
+            <mxPoint x="750" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IloEyi0LF0UIKYeNbzSe-6" value="Sản phẩm gợi ý" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IloEyi0LF0UIKYeNbzSe-5">
+          <mxGeometry x="-0.1006" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
