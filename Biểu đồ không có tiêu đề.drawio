@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="5970" dy="1346" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="5642" dy="1122" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -1845,7 +1845,7 @@
             <mxPoint x="2993" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8d-BBe2DazKA9-GbWJoN-137" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=7;whiteSpace=wrap;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#F8CECC;strokeColor=#36393d;" value="Thời gian" vertex="1">
+        <mxCell id="8d-BBe2DazKA9-GbWJoN-137" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=7;whiteSpace=wrap;strokeWidth=2;fontSize=17;fontStyle=1;fillColor=#C9EE92;strokeColor=#1A1A1A;" value="Thời gian" vertex="1">
           <mxGeometry height="34" width="165" x="2578" y="460" as="geometry" />
         </mxCell>
         <mxCell id="8d-BBe2DazKA9-GbWJoN-138" edge="1" parent="1" source="8d-BBe2DazKA9-GbWJoN-3" style="endArrow=none;strokeWidth=3;rounded=0;fontSize=17;fontStyle=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="8d-BBe2DazKA9-GbWJoN-137">
